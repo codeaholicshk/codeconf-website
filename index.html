@@ -84,6 +84,27 @@
       .stat-unit {
         font-size: 48px;
       }
+
+      /* http://stackoverflow.com/a/17203597 */
+      blink {
+        -webkit-animation: blink 1s steps(5, start) infinite;
+        -moz-animation:    blink 1s steps(5, start) infinite;
+        -o-animation:      blink 1s steps(5, start) infinite;
+        animation:         blink 1s steps(5, start) infinite;
+      }
+
+      @-webkit-keyframes blink {
+        to { visibility: hidden; }
+      }
+      @-moz-keyframes blink {
+        to { visibility: hidden; }
+      }
+      @-o-keyframes blink {
+        to { visibility: hidden; }
+      }
+      @keyframes blink {
+        to { visibility: hidden; }
+      }
     </style>
 
   </head>
@@ -102,7 +123,7 @@
           </div>
           <aside class="col-md-4">
             <h4>
-              i <span class="heart">&#10084;</span> hk<br>
+              i <blink><span class="heart">&#10084;</span></blink> hk<br>
               coders
             </h4>
           </aside>
@@ -212,9 +233,26 @@
     <section id="organisers" class="blue">
       <div class="container">
         <h2>
-          <a href="http://codeaholics.hk/">codeaholics</a> &hellip; we <span class="heart">&#10084;</span> hk coders
+          <a href="http://codeaholics.hk/">codeaholics</a> &hellip; we <blink><span class="heart">&#10084;</span></blink> hk coders
         </h4>
       </div>
     </section>
   </body>
+  <!-- http://stackoverflow.com/a/17203597 -->
+  <!--[if lt IE 10]>
+  <script>
+
+  toggleItem = function(){
+      var el = document.getElementsByTagName('blink')[0];
+      if (el.style.display === 'block') {
+          el.style.display = 'none';
+      } else {
+          el.style.display = 'block';
+      }
+  }
+
+  setInterval(toggleItem, 1000);
+
+  </script>
+  <![endif]-->
 </html>

@@ -30,7 +30,7 @@ ul {
   list-style-type: square;
 }
 
-section, header {
+section, header, footer {
   padding-top: 24px;
   padding-bottom: 24px;
   background-color: white;
@@ -98,6 +98,12 @@ body, .section-blue {
 
 .speaker-body h3 {
   font-size: 36px;
+}
+
+/* footer */
+
+footer h2 {
+  font-size: 28px;
 }
 
 /* http://stackoverflow.com/a/17203597 */

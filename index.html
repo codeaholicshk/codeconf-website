@@ -87,24 +87,31 @@
 
       /* speakers */
 
-      .speaker, .speaker-body {
-        overflow: hidden;
-        zoom: 1;
-      }
-
       .speaker {
         margin-bottom: 20px;
       }
 
-      .speaker figure {
-        float: left;
-        margin-right: 20px;
-      }
-
-      .speaker figure img {
+     .speaker figure img {
         display: block;
         width: 200px;
         height: 200px;
+      }
+
+      @media (min-width:720px) {
+
+        .speaker, .speaker-body {
+          overflow: hidden;
+          zoom: 1;
+        }
+
+        .speaker figure {
+          float: left;
+          margin-right: 20px;
+        }
+
+        .speaker-body h3 {
+          margin-top: 0;
+        }
       }
 
       .speaker-body {
@@ -112,7 +119,6 @@
       }
 
       .speaker-body h3 {
-        margin-top: 0;
         font-size: 36px;
       }
 

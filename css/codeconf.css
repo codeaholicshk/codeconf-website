@@ -41,6 +41,10 @@ section a {
   color: #39A8DF; /* blue */
 }
 
+.section-self-link {
+  color: inherit;
+}
+
 .section-no-bottom {
   padding-bottom: 0;
 }

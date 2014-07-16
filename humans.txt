@@ -1,0 +1,13 @@
+# humanstxt.org/
+# The humans responsible
+
+# TEAM
+
+    Matthew Rudy Jacobs -- @matthewrudy
+    Eddie Lau -- @3dd13
+    Steve Holmes -- @steholmes
+
+# THANKS
+
+    Cocoon -- hosting
+    ThoughtSauce -- support

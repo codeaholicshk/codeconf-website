@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hong Kong Code Conference 2014 - Saturday 6th September @ CoCoon</title>
 
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
     <style type="text/css">
       @font-face {
@@ -85,6 +85,44 @@
         font-size: 48px;
       }
 
+
+      /* speakers */
+
+      .speaker {
+        margin-bottom: 20px;
+      }
+
+     .speaker figure img {
+        display: block;
+        width: 200px;
+        height: 200px;
+      }
+
+      @media (min-width:720px) {
+
+        .speaker, .speaker-body {
+          overflow: hidden;
+          zoom: 1;
+        }
+
+        .speaker figure {
+          float: left;
+          margin-right: 20px;
+        }
+
+        .speaker-body h3 {
+          margin-top: 0;
+        }
+      }
+
+      .speaker-body {
+        font-size: 24px;
+      }
+
+      .speaker-body h3 {
+        font-size: 36px;
+      }
+
       /* http://stackoverflow.com/a/17203597 */
       blink {
         -webkit-animation: blink 1s steps(5, start) infinite;
@@ -135,7 +173,7 @@
       </div>
     </section>
 
-    <section id="stats">
+    <section id="marquee">
       <div class="container">
         <marquee>
           Saturday September 6th 2014 @
@@ -148,39 +186,12 @@
 
     <section id="about">
       <div class="container">
-        <h2>The Conference</h2>
+        <h2>The Concept</h2>
         <ul>
           <li>share our skills and opinions</li>
           <li>inspire each other with our passion</li>
           <li>build a closer, stronger community</li>
         </ul>
-      </div>
-    </section>
-
-    <section id="schedule">
-      <div class="container">
-        <h2>The Schedule</h2>
-        <ul>
-          <li>kicks off at 10am</li>
-          <li>lunch at 12:30 (included in the ticket)</li>
-          <li>closing talk at 6pm</li>
-          <li>after-party - to be confirmed</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="speakers">
-      <div class="container">
-        <h2>The Speakers</h2>
-        <p>This could be *you*!</p>
-        <p>
-          <a href="http://bit.ly/hkcodeconf-cfp">
-            Apply to speak at the conference
-          </a>
-        </p>
-        <p>
-          *deadline Wednesday 16th July - 9pm*
-        </p>
       </div>
     </section>
 
@@ -202,6 +213,18 @@
       </div>
     </section>
 
+    <section id="schedule">
+      <div class="container">
+        <h2>The Schedule</h2>
+        <ul>
+          <li>kicks off at 10am</li>
+          <li>lunch at 12:30 (included in the ticket)</li>
+          <li>closing talk at 6pm</li>
+          <li>after-party - to be confirmed</li>
+        </ul>
+      </div>
+    </section>
+
     <section id="sponsors">
       <div class="container">
         <h2>The Sponsors</h2>
@@ -212,6 +235,262 @@
             shoot us an email
           </a>
         </p>
+      </div>
+    </section>
+
+    <section id="speakers">
+      <div class="container">
+        <h2>The Speakers</h2>
+        <ul class="list-unstyled">
+
+          <li>
+            <article class="speaker" id="muan-chiou">
+              <figure>
+                <img src="images/muan-chiou.jpg" alt="picture of Mu-An Chiou">
+              </figure>
+              <div class="speaker-body">
+                <a href="#muan-chiou">
+                  <h3>Mu-An Chiou</h3>
+                </a>
+
+                <p>
+                  Mu-An is a designer at Github. She's also a 台灣人.
+                </p>
+              </div>
+            </article>
+          </li>
+
+          <li>
+            <article class="speaker" id="bart-verkoeijen">
+              <figure>
+                <img src="images/bart-verkoeijen.jpg" alt="picture of Bart Verkoeijen">
+              </figure>
+              <div class="speaker-body">
+                <a href="#bart-verkoeijen">
+                  <h3>Bart Verkoeijen</h3>
+                </a>
+
+                <p>
+                  Bart is a software developer building apps, web and cloud. Over 10 years active in web development, former IT operations manager, and has been working for the past year on Surround App.
+                </p>
+              </div>
+            </article>
+          </li>
+
+          <li>
+            <article class="speaker" id="andrew-medworth">
+              <figure>
+                <img src="images/andrew-medworth.jpg" alt="picture of Andrew Medworth">
+              </figure>
+              <div class="speaker-body">
+                <a href="#andrew-medworth">
+                  <h3>Andrew Medworth</h3>
+                </a>
+
+                <p>
+                  Andrew is a British software engineer who has been living in Hong Kong since 2010. His interests are programming languages, music, chess, philosophy and Chinese language.
+                </p>
+              </div>
+            </article>
+          </li>
+
+          <li>
+            <article class="speaker" id="brendan-tang">
+              <figure>
+                <img src="images/brendan-tang.jpg" alt="picture of Brendan Tang">
+              </figure>
+              <div class="speaker-body">
+                <a href="#brendan-tang">
+                  <h3>Brendan Tang</h3>
+                </a>
+
+                <p>
+                  Brendan is a hacker, coder, artist, open source contributor, and the chief engineer / technical co-founder of Innohat, which is a startup company focusing on photo sharing and social network.
+                </p>
+
+                <p>
+                  He's worked in Shanghai and Beijing, but is now in Hong Kong.
+                </p>
+              </div>
+            </article>
+          </li>
+
+          <li>
+            <article class="speaker" id="amber-matthews">
+              <figure>
+                <img src="images/amber-matthews.jpg" alt="picture of Amber Matthews">
+              </figure>
+              <div class="speaker-body">
+                <a href="#amber-matthews">
+                  <h3>Amber Matthews</h3>
+                </a>
+
+                <p>
+                  Amber is a UX designer and digital strategist/geek plus an unashamed sports nut.
+                </p>
+
+                <p>
+                  She has a black belt in martial arts, but says that she doesn't bite. Honest.
+                </p>
+              </div>
+            </article>
+          </li>
+
+          <li>
+            <article class="speaker" id="matthew-lehner">
+              <figure>
+                <img src="images/matthew-lehner.jpg" alt="picture of Matthew Lehner">
+              </figure>
+              <div class="speaker-body">
+                <a href="#matthew-lehner">
+                  <h3>Matthew Lehner</h3>
+                </a>
+
+                <p>
+                  Matthew is a front-end perfectionist, back end architect, and all around good guy.
+                </p>
+
+                <p>
+                  He's interested in creating simple, reliable software, and simple, reliable businesses.
+                </p>
+              </div>
+            </article>
+          </li>
+
+          <li>
+            <article class="speaker" id="richard-cohen">
+              <figure>
+                <img src="images/richard-cohen.jpg" alt="picture of Richard Cohen">
+              </figure>
+              <div class="speaker-body">
+                <a href="#richard-cohen">
+                  <h3>Richard Cohen</h3>
+                </a>
+
+                <p>
+                  Richard is "Mr Android" in Hong Kong.
+                  But he actually spends most of his time working with Python and Django!
+                </p>
+
+              </div>
+            </article>
+          </li>
+
+          <li>
+            <article class="speaker" id="jonas-karlsson">
+              <figure>
+                <img src="images/jonas-karlsson.jpg" alt="picture of Jonas Karlsson">
+              </figure>
+              <div class="speaker-body">
+                <a href="#jonas-karlsson">
+                  <h3>Jonas Karlsson</h3>
+                </a>
+
+                <p>
+                  Jonas is a traveling distributed storage database kernel and languages hacker. He built the storage and indexing software underlying many cloud services at Google.
+                </p>
+
+                <p>
+                  He spends his time travelling between Hackerspaces all over Asia.
+                </p>
+
+              </div>
+            </article>
+          </li>
+
+          <li>
+            <article class="speaker" id="michelle-sun">
+              <figure>
+                <img src="images/michelle-sun.jpg" alt="picture of Michelle Sun">
+              </figure>
+
+              <div class="speaker-body">
+                <a href="#michelle-sun">
+                  <h3>Michelle Sun</h3>
+                </a>
+
+                <p>
+                  Michelle is co-founder and CEO of First Code Academy.
+                </p>
+
+                <p>
+                  She believes every person should be empowered to use technology to express themselves and bring their ideas to life.
+                </p>
+
+                <p>
+                  She started First Code Academy to provide hands-on learning opportunities in software development in Asia.
+                </p>
+
+              </div>
+            </article>
+          </li>
+
+          <li>
+            <article class="speaker" id="pedro-pimentel">
+              <figure>
+                <img src="images/pedro-pimentel.jpg" alt="picture of Pedro Pimentel">
+              </figure>
+
+              <div class="speaker-body">
+                <a href="#pedro-pimentel">
+                  <h3>Pedro Pimentel</h3>
+                </a>
+
+                <p>
+                  Pedro is a full-stack software & social engineer. He's able to move seamlessly between talking code and talking with humans thanks to his vast experience in product development and in consulting at companies such as Thoughtworks and ThoughtSauce.
+                </p>
+
+                <p>
+                  Originally from Brazil, he decided to come to Asia to pursue his endeavours of changing the world and moreover, change himself.
+                </p>
+
+              </div>
+            </article>
+          </li>
+
+          <li>
+            <article class="speaker" id="hubert-lee">
+              <figure>
+                <img src="images/hubert-lee.jpg" alt="picture of Hubert Lee">
+              </figure>
+              <div class="speaker-body">
+                <a href="#hubert-lee">
+                  <h3>Hubert Lee</h3>
+                </a>
+
+                <p>
+                  Hubert Lee is a technologist, a tinkerer, and a traveler. After moving to Hong Kong in late 2012, he joined Thought-Sauce and worked with a variety of startups, including Charitable Choice and The CloudMiner.
+                </p>
+
+                <p>
+                  He has over four years of experience in developing Ruby on Rails web applications and has recently begun dabbling in developing mobile apps for the Android platform.
+                </p>
+              </div>
+            </article>
+          </li>
+
+          <li>
+            <article class="speaker" id="sebastian-korfmann">
+              <figure>
+                <img src="images/sebastian-korfmann.jpg" alt="picture of Sebastian Korfmann">
+              </figure>
+              <div class="speaker-body">
+                <a href="#sebastian-korfmann">
+                  <h3>Sebastian Korfmann</h3>
+                </a>
+
+                <p>
+                  Sebastian is a seasoned Web-Engineer from Germany, working for Bulletproof Networks in Australia. A nomad for some time, he's now based in Ho-Chi-Minh City, Vietnam.
+                </p>
+
+                <p>
+                  He loves Ruby and organising workshops around Docker and its ecosystem. When he's not travelling around the world he's running meet-ups for the local startup community in Saigon.
+                </p>
+              </div>
+            </article>
+          </li>
+
+        </ul>
       </div>
     </section>
 

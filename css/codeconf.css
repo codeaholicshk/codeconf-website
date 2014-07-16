@@ -101,7 +101,7 @@ body, .section-blue {
 }
 
 /* http://stackoverflow.com/a/17203597 */
-blink {
+.blink {
   -webkit-animation: blink 1s steps(5, start) infinite;
   -moz-animation:    blink 1s steps(5, start) infinite;
   -o-animation:      blink 1s steps(5, start) infinite;

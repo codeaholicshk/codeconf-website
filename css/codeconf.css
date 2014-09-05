@@ -67,6 +67,18 @@ body, .section-blue {
   color: #e35d5d; /* red */
 }
 
+/* sponsors */
+
+.sponsor {
+  margin-bottom: 20px;
+}
+
+.sponsor figure img {
+  display: block;
+  width: 250px;
+  height: 150px;
+}
+
 /* speakers */
 
 .speaker {

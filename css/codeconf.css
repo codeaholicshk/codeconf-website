@@ -91,6 +91,19 @@ body, .section-blue {
   height: 200px;
 }
 
+/* schedule */
+.schedule table {
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+.schedule table .center {
+  text-align: center;
+}
+
+.schedule table thead th {
+  text-align: center;
+}
+
 @media (min-width:720px) {
 
   .speaker, .speaker-body {
